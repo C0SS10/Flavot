@@ -11,28 +11,10 @@ export function Chat() {
       </header>
       <main className="chat-window">
         <ul className="message incoming">
-          <li>But the life came to me and i was happy with it</li>
+          <li>Hello! What type of meal are you interested in? (e.g., breakfast, lunch, dinner)</li>
         </ul>
         <ul className="message outgoing">
-          <li>All my effort was in vane, but the think i was doing is that</li>
-        </ul>
-        <ul className="message incoming">
-          <li>But the life came to me and i was happy with it</li>
-        </ul>
-        <ul className="message outgoing">
-          <li>All my effort was in vane, but the think i was doing is that All my effort was in vane, but the think i was doing is that</li>
-        </ul>
-        <ul className="message incoming">
-          <li>But the life came to me and i was happy with it</li>
-        </ul>
-        <ul className="message outgoing">
-          <li>All my effort was in vane, but the think i was doing is that</li>
-        </ul>
-        <ul className="message incoming">
-          <li>But the life came to me and i was happy with it</li>
-        </ul>
-        <ul className="message outgoing">
-          <li>All my effort was in vane, but the think i was doing is that</li>
+          <li>I was looking for dinner</li>
         </ul>
       </main>
       <footer className="chat-footer">
