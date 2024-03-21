@@ -1,0 +1,99 @@
+.chat{
+  height: 90dvh;
+  width: 70dvw;
+  background-color: var(--pigment);
+  border: 2px solid #000;
+  border-radius: .8rem;
+}
+
+.chat-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+  background-color: var(--champagne);
+  border-bottom: 2px solid #000;
+  border-radius: .8rem .8rem 0 0;
+}
+
+.chat-header > h1{
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.chat-window{
+  height: 72dvh;
+  padding: 2rem;
+  overflow-y: scroll;
+  color: #000;
+}
+
+.message{
+  margin-bottom: .8rem;
+  padding: .4rem;
+  border-radius: .4rem;
+  max-width: 70%;
+  clear: both;
+}
+
+.incoming{
+  background-color: var(--pistachio);
+  text-align: left;
+  float: left;
+}
+
+.outgoing{
+  background-color: var(--malachite);
+  text-align: right;
+  float: right;
+}
+
+.message li{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.chat-footer{
+  display: flex;
+  align-items: center;
+  border-top: 2px solid #000;
+  padding: .2rem;
+}
+
+.message-input{
+  width: 1rem;
+  background-color: transparent;
+  flex: 1;
+  border: none;
+  border-radius: 0.4rem;
+  outline: none;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+}
+
+.message-input::placeholder{
+  color: var(--champagne);
+}
+
+.send-button{
+  color: #fff;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: linear-gradient(var(--malachite), var(--pistachio));
+  transition: transform 0.4s ease;
+}
+
+.send-button:hover .send-icon {
+  transform: rotate(-90deg);
+}
+
+.send-icon {
+  transition: transform 0.4s ease;
+}
