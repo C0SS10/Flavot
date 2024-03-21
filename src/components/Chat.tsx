@@ -6,15 +6,15 @@ export function Chat() {
   return (
     <section className="chat">
       <header className="chat-header">
-        <h1>Flavot</h1>
+        <h1>Flavot | Ideas for cooking</h1>
         <img src={Hat} alt="Icon chef hat" className="icon" />
       </header>
       <main className="chat-window">
         <ul className="message incoming">
-          <li></li>
+          <li>Hello! What type of meal are you interested in? (e.g., breakfast, lunch, dinner)</li>
         </ul>
         <ul className="message outgoing">
-          <li></li>
+          <li>I was looking for dinner</li>
         </ul>
       </main>
       <footer className="chat-footer">
@@ -24,9 +24,9 @@ export function Chat() {
           aria-label="Here your message"
           placeholder="Cook your message"
         />
-        <button type="button" className="send-button">
+        <a href="#" className="send-button">
           <img src={Send} alt="Send icon" className="send-icon" />
-        </button>
+        </a>
       </footer>
     </section>
   );
