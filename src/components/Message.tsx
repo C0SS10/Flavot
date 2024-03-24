@@ -1,3 +1,5 @@
+import "@/styles/Chat.css"
+
 interface MessageProps {
   message: string;
   type: 'message incoming' | 'message outgoing';

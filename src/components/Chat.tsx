@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Message } from "@/components/Message";
 import Hat from "@/assets/chef-hat.svg";
 import Send from "@/assets/send-icon.svg";
@@ -6,13 +6,14 @@ import { botMessages } from "@/utils/bot-messages";
 import "@/styles/Chat.css";
 
 export function Chat() {
-  const [messages, setMessages] = useState<string[]>([]);
+  const [messages, setMessages] = useState<string[]>([botMessages[0]]);
   const [step, setSteps] = useState<number>(0);
+  const chatWindowRef = useRef<HTMLDivElement>(null);
 
   const handleUserInput = (input: string) => {
     setMessages((prevMessages) => [...prevMessages, `${input}`]);
     if (validateUserInput(input)) {
-      setMessages((prevMessages) => [...prevMessages, botMessages[step]]);
+      setMessages((prevMessages) => [...prevMessages, botMessages[step+1]]);
       setSteps(step + 1);
     } else {
       setMessages((prevMessages) => [
@@ -21,6 +22,12 @@ export function Chat() {
       ]);
     }
   };
+
+  useEffect(() => {
+    if (chatWindowRef.current) {
+      chatWindowRef.current.scrollTop = chatWindowRef.current.scrollHeight;
+    }
+  }, [messages]);
 
   const validateUserInput = (input: string): boolean => {
     switch (step) {
@@ -66,12 +73,12 @@ export function Chat() {
   };
 
   return (
-    <section className="chat">
+    <article className="chat">
       <header className="chat-header">
         <h1>Flavot | Ideas for cooking</h1>
         <img src={Hat} alt="Icon chef hat" className="icon" />
       </header>
-      <main className="chat-window">
+      <main className="chat-window" ref={chatWindowRef}>
         {messages.map((message: string, index: number) => (
           <Message
             key={index}
@@ -81,7 +88,7 @@ export function Chat() {
         ))}
       </main>
       <footer className="chat-footer">
-        {step < botMessages.length && (
+        {step < botMessages.length - 1 && (
           <input
             type="text"
             className="message-input"
@@ -96,18 +103,16 @@ export function Chat() {
           />
         )}
         <a
-          href="#"
           className="send-button"
           onClick={() =>
             handleUserInput(
-              (document.querySelector("message-input") as HTMLInputElement)
-                .value
+              (document.querySelector(".message-input") as HTMLInputElement).value
             )
           }
         >
           <img src={Send} alt="Send icon" className="send-icon" />
         </a>
       </footer>
-    </section>
+    </article>
   );
 }
