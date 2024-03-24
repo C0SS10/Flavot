@@ -1,6 +1,7 @@
 .chat{
   height: 90dvh;
   width: 70dvw;
+  margin: 1.2rem;
   background-color: var(--pigment);
   border: 2px solid #000;
   border-radius: .8rem;
@@ -32,12 +33,16 @@
   margin-bottom: .8rem;
   padding: .4rem;
   border-radius: .4rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: system-ui;
   max-width: 70%;
   clear: both;
 }
 
 .incoming{
-  background-color: var(--pistachio);
+  background-color: var(--champagne);
+  color: #1b1b1b;
   text-align: left;
   float: left;
 }
@@ -61,7 +66,6 @@
 }
 
 .message-input{
-  width: 1rem;
   background-color: transparent;
   flex: 1;
   border: none;
@@ -69,6 +73,7 @@
   outline: none;
   padding: 0.4rem;
   font-size: 1.2rem;
+  color: var(--champagne);
 }
 
 .message-input::placeholder{
