@@ -4,6 +4,7 @@ import { botMessages } from "@/utils/bot-messages";
 import { RecipeMessage } from "@/components/RecipeMessage";
 import Hat from "@/assets/chef-hat.svg";
 import Send from "@/assets/send-icon.svg";
+import New from "@/assets/new-chat.svg";
 import "@/styles/Chat.css";
 
 export function Chat() {
@@ -12,6 +13,7 @@ export function Chat() {
   ]);
   const [step, setSteps] = useState<number>(0);
   const [userInputs, setUserInputs] = useState<string[]>([]);
+  const [resetChat, setResetChat] = useState<boolean>(false);
   const chatWindowRef = useRef<HTMLDivElement>(null);
 
   const handleUserInput = (input: string) => {
@@ -79,6 +81,13 @@ export function Chat() {
     }
   };
 
+  const handleResetChat = () => {
+    setMessages([botMessages[0]]);
+    setSteps(0);
+    setUserInputs([]);
+    setResetChat(!resetChat);
+  };
+
   return (
     <article className="chat">
       <header className="chat-header">
@@ -98,36 +107,39 @@ export function Chat() {
             )}
           </div>
         ))}
-        {step === 6 && (
-          <RecipeMessage userInputs={userInputs}/>
-        )}
+        {step === 6 && <RecipeMessage userInputs={userInputs} />}
       </main>
       <footer className="chat-footer">
-        {step < botMessages.length - 1 && (
-          <input
-            type="text"
-            className="message-input"
-            aria-label="Here your message"
-            placeholder="Cook your message"
-            onKeyDown={(event) => {
-              if (event.key === "Enter") {
-                handleUserInput(event.currentTarget.value);
-                event.currentTarget.value = "";
-              }
-            }}
-          />
-        )}
-        <a
-          className="send-button"
-          onClick={() =>
-            handleUserInput(
-              (document.querySelector(".message-input") as HTMLInputElement)
-                .value
-            )
-          }
-        >
-          <img src={Send} alt="Send icon" className="send-icon" />
+        <a className="button" onClick={() => handleResetChat()}>
+          <img src={New} alt="New chat icon" className="icon" />
         </a>
+        {step < botMessages.length - 1 && (
+          <div className="input-send">
+            <input
+              type="text"
+              className="message-input"
+              aria-label="Here your message"
+              placeholder="Cook your message"
+              onKeyDown={(event) => {
+                if (event.key === "Enter") {
+                  handleUserInput(event.currentTarget.value);
+                  event.currentTarget.value = "";
+                }
+              }}
+            />
+            <a
+              className="button"
+              onClick={() =>
+                handleUserInput(
+                  (document.querySelector(".message-input") as HTMLInputElement)
+                    .value
+                )
+              }
+            >
+              <img src={Send} alt="Send icon" className="icon" />
+            </a>
+          </div>
+        )}
       </footer>
     </article>
   );
