@@ -1,0 +1,172 @@
+{
+  "recipes": [
+    {
+      "name": "Caprese Breakfast Salad",
+      "meal": "breakfast",
+      "restrictions": "none",
+      "time": "15 minutes",
+      "cuisine": "italian",
+      "type": "salad",
+      "complexity": "simple",
+      "instructions": "1. Slice fresh tomatoes and mozzarella cheese.\n2. Arrange them alternately on a plate.\n3. Drizzle with olive oil and balsamic vinegar.\n4. Season with salt, pepper, and fresh basil leaves.\n5. Serve immediately.",
+      "image": "https://natashaskitchen.com/wp-content/uploads/2019/08/Caprese-Salad-6-728x1092.jpg",
+      "link": "https://natashaskitchen.com/caprese-salad-recipe/"
+    },
+    {
+      "name": "Vegetarian Tortilla Soup",
+      "meal": "lunch",
+      "restrictions": "vegetarian",
+      "time": "30 minutes",
+      "cuisine": "mexican",
+      "type": "soup",
+      "complexity": "elaborate",
+      "instructions": "1. Sauté onions, garlic, and bell peppers in a pot.\n2. Add vegetable broth, diced tomatoes, corn, and black beans.\n3. Simmer for 20 minutes.\n4. Serve topped with crispy tortilla strips, avocado slices, and a dollop of sour cream.\n5. Garnish with chopped cilantro.",
+      "image": "https://www.mexicanplease.com/wp-content/uploads/2023/10/Vegetarian-Tortilla-Soup-9.jpg",
+      "link": "https://www.mexicanplease.com/vegetarian-tortilla-soup-so-good/"
+    },
+    {
+      "name": "Gluten-Free Pad Thai",
+      "meal": "dinner",
+      "restrictions": "gluten free",
+      "time": "1 hour",
+      "cuisine": "asian",
+      "type": "pasta",
+      "complexity": "simple",
+      "instructions": "1. Soak rice noodles in warm water until softened.\n2. Heat oil in a pan and add minced garlic and tofu cubes.\n3. Stir-fry until tofu is golden brown.\n4. Add drained noodles, bean sprouts, chopped peanuts, and Pad Thai sauce.\n5. Cook until heated through.\n6. Serve with lime wedges and garnish with cilantro and chopped scallions.",
+      "image": "https://www.thespruceeats.com/thmb/gg97nWZSdlszEAS…7145-hero-01-f681d116aa9947cd9118cbce55faae47.jpg",
+      "link": "https://www.thespruceeats.com/pad-thai-with-shrimp-3217145"
+    },
+    {
+      "name": "Noodle Soup",
+      "meal": "dinner",
+      "restrictions": "vegetarian",
+      "time": "30 minutes",
+      "cuisine": "asian",
+      "type": "soup",
+      "complexity": "simple",
+      "instructions": "1. Cook noodles according to package instructions.\n2. In a pot, sauté vegetables like mushrooms, carrots, and bok choy.\n3. Add vegetable broth and soy sauce to the pot.\n4. Once vegetables are tender, add cooked noodles.\n5. Serve hot, garnished with green onions and sesame seeds.",
+      "image": "https://www.recipetineats.com/wp-content/uploads/2023/05/Spicy-Korean-noodle-soup_3.jpg",
+      "link": "https://www.recipetineats.com/easy-spicy-korean-noodle-soup/"
+    },
+    {
+      "name": "Quinoa Salad",
+      "meal": "lunch",
+      "restrictions": "gluten free",
+      "time": "15 minutes",
+      "cuisine": "mexican",
+      "type": "salad",
+      "complexity": "simple",
+      "instructions": "1. Cook quinoa according to package instructions.\n2. In a bowl, combine cooked quinoa with black beans, corn, diced tomatoes, and avocado.\n3. Drizzle with lime juice and olive oil.\n4. Season with salt, cumin, and chili powder.\n5. Toss well and serve chilled.",
+      "image": "https://whitneybond.com/wp-content/uploads/2014/07/mexican-Quinoa-6.jpg",
+      "link": "https://whitneybond.com/mexican-quinoa-salad/"
+    },
+    {
+      "name": "Stuffed Peppers",
+      "meal": "dinner",
+      "restrictions": "low carb",
+      "time": "1 hour",
+      "cuisine": "italian",
+      "type": "none",
+      "complexity": "elaborate",
+      "instructions": "1. Preheat oven to 190°C.\n2. Cut bell peppers in half and remove seeds.\n3. In a skillet, cook ground turkey with italian seasoning and garlic until browned.\n4. Stir in cooked quinoa and marinara sauce.\n5. Stuff bell peppers with the turkey mixture.\n6. Place stuffed peppers in a baking dish and cover with foil.\n7. Bake for 30 minutes.\n8. Remove foil, sprinkle with mozzarella cheese, and bake for an additional 10 minutes or until cheese is melted and bubbly.\n9. Serve hot.",
+      "image": "https://ucarecdn.com/3b4190ec-f419-4c67-93db-57db0c43b5fc/",
+      "link": "https://perfectketo.com/italian-keto-stuffed-peppers/"
+    },
+    {
+      "name": "Pasta Salad",
+      "meal": "lunch",
+      "restrictions": "vegetarian",
+      "time": "15 minutes",
+      "cuisine": "asian",
+      "type": "pasta",
+      "complexity": "simple",
+      "instructions": "1. Cook pasta according to package instructions.\n2. In a bowl, mix cooked pasta with shredded carrots, sliced bell peppers, and edamame.\n3. Toss with a soy sauce-based dressing.\n4. Chill in the refrigerator for at least 30 minutes before serving.",
+      "image": "https://images.squarespace-cdn.com/content/v1/5c80039165a7078b9659247b/702e2582-f2f1-49e3-a396-d1d5aee094fc/cold+asian+salad.jpg",
+      "link": "https://www.lotsofyums.com/recipe-blog/2022/3/9-cold-asian-noodle-salad"
+    },
+    {
+      "name": "Chicken Enchilada Casserole",
+      "meal": "dinner",
+      "restrictions": "gluten free",
+      "time": "30 minutes",
+      "cuisine": "mexican",
+      "type": "casserole",
+      "complexity": "elaborate",
+      "instructions": "1. Preheat oven to 190°C and grease a baking dish.\n2. In a skillet, cook diced chicken until no longer pink.\n3. In another skillet, heat olive oil and sauté onions and bell peppers until softened.\n4. Stir in cooked chicken, enchilada sauce, black beans, and corn.\n5. Layer tortilla chips on the bottom of the baking dish.\n6. Pour chicken mixture over the chips.\n7. Top with shredded cheese.\n8. Repeat layers, ending with a layer of cheese on top.\n9. Bake for 30 minutes or until cheese is melted and bubbly.\n10. Serve hot, garnished with chopped cilantro and sliced jalapeños.",
+      "image": "https://www.jocooks.com/wp-content/uploads/2019/01/chicken-enchilada-casserole-1-2.jpg",
+      "link": "https://www.jocooks.com/recipes/easy-chicken-enchilada-casserole/"
+    },    
+    {
+      "name": "Zucchini Lasagna",
+      "meal": "dinner",
+      "restrictions": "low carb",
+      "time": "1 hour",
+      "cuisine": "italian",
+      "type": "pasta",
+      "complexity": "elaborate",
+      "instructions": "1. Preheat oven to 375°F (190°C).\n2. Slice zucchini lengthwise into thin strips.\n3. In a skillet, cook ground beef with italian seasoning and garlic until browned.\n4. Layer zucchini slices, meat sauce, and ricotta cheese in a baking dish.\n5. Repeat layers until ingredients are used up, ending with a layer of zucchini on top.\n6. Cover with foil and bake for 30 minutes.\n7. Remove foil, sprinkle with mozzarella cheese, and bake for an additional 15 minutes or until cheese is bubbly and golden.\n8. Let it cool for a few minutes before serving.",
+      "image": "https://detoxinista.com/wp-content/uploads/2019/09/finished-lasagna.jpg",
+      "link": "https://www.allrecipes.com/recipe/261026/ultimate-low-carb-zucchini-lasagna/"
+    },
+    {
+      "name": "italian Pasta",
+      "meal": "lunch",
+      "restrictions": "vegetarian",
+      "time": "30 minutes",
+      "cuisine": "italian",
+      "type": "pasta",
+      "complexity": "simple",
+      "instructions": "1. Cook pasta according to package instructions.\n2. In a bowl, mix cooked pasta with cherry tomatoes, olives, and diced mozzarella.\n3. Toss with a basil pesto dressing.\n4. Chill in the refrigerator for at least 30 minutes before serving.",
+      "image": "http://www.ilovevegan.com/wp-content/uploads/2020/06/Vegan-italian-Pasta-Salad-Recipe-ilovevegan-3826.jpg",
+      "link": "https://ilovevegan.com/vegan-italian-pasta-salad/"
+    },
+    {
+      "name": "Quinoa Soup",
+      "meal": "dinner",
+      "restrictions": "gluten free",
+      "time": "1 hour",
+      "cuisine": "mexican",
+      "type": "soup",
+      "complexity": "elaborate",
+      "instructions": "1. In a large pot, heat olive oil and sauté diced onions and garlic until softened.\n2. Add diced tomatoes, black beans, corn, and quinoa.\n3. Pour in vegetable broth and bring to a boil.\n4. Reduce heat and simmer for 40 minutes.\n5. Season with chili powder, cumin, salt, and lime juice.\n6. Serve hot, garnished with avocado slices, cilantro, and a dollop of Greek yogurt.",
+      "image": "https://cookieandkate.com/images/2017/02/mexican-quinoa-soup.jpg",
+      "link": "https://cookieandkate.com/mexican-quinoa-stew-recipe/"
+    },
+    {
+      "name": "Cucumber Salad",
+      "meal": "lunch",
+      "restrictions": "low carb",
+      "time": "15 minutes",
+      "cuisine": "asian",
+      "type": "salad",
+      "complexity": "simple",
+      "instructions": "1. Slice cucumbers thinly and place them in a bowl.\n2. Add sliced red onions, chopped peanuts, and cilantro.\n3. Toss with a dressing made of rice vinegar, soy sauce, and sesame oil.\n4. Chill in the refrigerator for 10 minutes before serving.",
+      "image": "https://realsimplegood.com/wp-content/uploads/asian-cucumber-salad-3.jpg",
+      "link": "https://farmlifediy.com/easy-asian-cucumber-salad/"
+    },
+    {
+      "name": "mexican Chicken and Rice Soup",
+      "meal": "dinner",
+      "restrictions": "none",
+      "time": "1 hour",
+      "cuisine": "mexican",
+      "type": "soup",
+      "complexity": "elaborate",
+      "instructions": "1. In a large pot, heat olive oil and sauté diced onions, garlic, and bell peppers until softened.\n2. Add diced chicken and cook until browned.\n3. Stir in diced tomatoes, corn, black beans, and rice.\n4. Pour in chicken broth and bring to a boil.\n5. Reduce heat and simmer for 40 minutes or until rice is tender.\n6. Season with chili powder, cumin, salt, and oregano.\n7. Serve hot, garnished with chopped cilantro, avocado slices, and a squeeze of lime juice.",
+      "image": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_960/v1/img/recipes/36/89/79/picQ4OTt7.jpg",
+      "link": "https://www.food.com/recipe/mexican-chicken-rice-soup-caldo-cantina-368979"
+    },
+    {
+      "name": "Taco Salad",
+      "meal": "lunch",
+      "restrictions": "none",
+      "time": "30 minutes",
+      "cuisine": "mexican",
+      "type": "salad",
+      "complexity": "elaborate",
+      "instructions": "1. In a skillet, cook ground beef with taco seasoning until browned.\n2. Prepare a bed of lettuce on a large serving platter.\n3. Arrange cooked ground beef on top of the lettuce.\n4. Add layers of black beans, corn, diced tomatoes, sliced avocado, and shredded cheese.\n5. In a small bowl, mix together sour cream, salsa, and lime juice to make a dressing.\n6. Drizzle the dressing over the salad.\n7. Garnish with crushed tortilla chips and chopped cilantro.\n8. Serve immediately and enjoy!",
+      "image": "https://www.spendwithpennies.com/wp-content/uploads/2022/07/Taco-Salad-2-SpendWithPennies-4-800x1200.jpg",
+      "link": "https://www.spendwithpennies.com/easy-taco-salad/"
+    }    
+  ]
+}
