@@ -14,7 +14,7 @@
     },
     {
       "name": "Vegetarian Tortilla Soup",
-      "meal": "lunch",
+      "meal": "breakfast",
       "restrictions": "vegetarian",
       "time": "30 minutes",
       "cuisine": "mexican",
@@ -167,6 +167,18 @@
       "instructions": "1. In a skillet, cook ground beef with taco seasoning until browned.\n2. Prepare a bed of lettuce on a large serving platter.\n3. Arrange cooked ground beef on top of the lettuce.\n4. Add layers of black beans, corn, diced tomatoes, sliced avocado, and shredded cheese.\n5. In a small bowl, mix together sour cream, salsa, and lime juice to make a dressing.\n6. Drizzle the dressing over the salad.\n7. Garnish with crushed tortilla chips and chopped cilantro.\n8. Serve immediately and enjoy!",
       "image": "https://www.spendwithpennies.com/wp-content/uploads/2022/07/Taco-Salad-2-SpendWithPennies-4-800x1200.jpg",
       "link": "https://www.spendwithpennies.com/easy-taco-salad/"
-    }    
+    },
+    {
+      "name": "Garlic Butter Pasta",
+      "meal": "dinner",
+      "restrictions": "none",
+      "time": "15 minutes",
+      "cuisine": "italian",
+      "type": "pasta",
+      "complexity": "simple",
+      "instructions": "1. Cook pasta according to package instructions.\n2. In a skillet, melt butter over medium heat.\n3. Add minced garlic to the skillet and sauté until fragrant.\n4. Drain the cooked pasta and add it to the skillet.\n5. Toss the pasta with the garlic butter sauce until well coated.\n6. Season with salt, pepper, and red pepper flakes to taste.\n7. Serve hot, garnished with grated Parmesan cheese and chopped parsley.",
+      "image": "https://foolproofliving.com/wp-content/uploads/2023/05/Garlic-butter-pasta-600x600.jpg",
+      "link": "https://foolproofliving.com/garlic-butter-pasta/"
+    }
   ]
 }
