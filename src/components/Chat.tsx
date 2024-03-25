@@ -1,20 +1,27 @@
 import { useEffect, useRef, useState } from "react";
 import { Message } from "@/components/Message";
+import { botMessages } from "@/utils/bot-messages";
+import { RecipeMessage } from "@/components/RecipeMessage";
 import Hat from "@/assets/chef-hat.svg";
 import Send from "@/assets/send-icon.svg";
-import { botMessages } from "@/utils/bot-messages";
 import "@/styles/Chat.css";
 
 export function Chat() {
-  const [messages, setMessages] = useState<string[]>([botMessages[0]]);
+  const [messages, setMessages] = useState<Array<string | JSX.Element>>([
+    botMessages[0],
+  ]);
   const [step, setSteps] = useState<number>(0);
+  const [userInputs, setUserInputs] = useState<string[]>([]);
   const chatWindowRef = useRef<HTMLDivElement>(null);
 
   const handleUserInput = (input: string) => {
     setMessages((prevMessages) => [...prevMessages, `${input}`]);
     if (validateUserInput(input)) {
-      setMessages((prevMessages) => [...prevMessages, botMessages[step+1]]);
-      setSteps(step + 1);
+      setUserInputs((prevInputs) => [...prevInputs, input]);
+      if (step < botMessages.length - 1) {
+        setMessages((prevMessages) => [...prevMessages, botMessages[step + 1]]);
+        setSteps(step + 1);
+      }
     } else {
       setMessages((prevMessages) => [
         ...prevMessages,
@@ -79,13 +86,21 @@ export function Chat() {
         <img src={Hat} alt="Icon chef hat" className="icon" />
       </header>
       <main className="chat-window" ref={chatWindowRef}>
-        {messages.map((message: string, index: number) => (
-          <Message
-            key={index}
-            message={message}
-            type={index % 2 === 0 ? "message incoming" : "message outgoing"}
-          />
+        {messages.map((message: string | JSX.Element, index: number) => (
+          <div key={index}>
+            {typeof message === "string" ? (
+              <Message
+                message={message}
+                type={index % 2 === 0 ? "message incoming" : "message outgoing"}
+              />
+            ) : (
+              message
+            )}
+          </div>
         ))}
+        {step === 6 && (
+          <RecipeMessage userInputs={userInputs}/>
+        )}
       </main>
       <footer className="chat-footer">
         {step < botMessages.length - 1 && (
@@ -106,7 +121,8 @@ export function Chat() {
           className="send-button"
           onClick={() =>
             handleUserInput(
-              (document.querySelector(".message-input") as HTMLInputElement).value
+              (document.querySelector(".message-input") as HTMLInputElement)
+                .value
             )
           }
         >
