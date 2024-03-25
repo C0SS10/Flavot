@@ -109,7 +109,7 @@
       "link": "https://www.allrecipes.com/recipe/261026/ultimate-low-carb-zucchini-lasagna/"
     },
     {
-      "name": "italian Pasta",
+      "name": "Italian Pasta",
       "meal": "lunch",
       "restrictions": "vegetarian",
       "time": "30 minutes",
@@ -179,6 +179,31 @@
       "instructions": "1. Cook pasta according to package instructions.\n2. In a skillet, melt butter over medium heat.\n3. Add minced garlic to the skillet and sauté until fragrant.\n4. Drain the cooked pasta and add it to the skillet.\n5. Toss the pasta with the garlic butter sauce until well coated.\n6. Season with salt, pepper, and red pepper flakes to taste.\n7. Serve hot, garnished with grated Parmesan cheese and chopped parsley.",
       "image": "https://foolproofliving.com/wp-content/uploads/2023/05/Garlic-butter-pasta-600x600.jpg",
       "link": "https://foolproofliving.com/garlic-butter-pasta/"
+    },
+    {
+      "name": "Mexican Salad",
+      "meal": "breakfast",
+      "restrictions": "none",
+      "time": "30 minutes",
+      "cuisine": "mexican",
+      "type": "salad",
+      "complexity": "simple",
+      "instructions": "1. In a bowl, combine chopped lettuce, diced tomatoes, sliced avocado, and black beans.\n2. Drizzle with lime juice and olive oil.\n3. Season with salt, pepper, and a pinch of cumin.\n4. Toss everything together until well combined.\n5. Serve immediately as a refreshing breakfast salad.",
+      "image": "https://www.acouplecooks.com/wp-content/uploads/2020/02/Mexican-Salad-005.jpg",
+      "link": "https://www.acouplecooks.com/easy-mexican-salad/"
+    },
+    {
+      "name": "Simple Italian Breakfast Pasta",
+      "meal": "breakfast",
+      "restrictions": "none",
+      "time": "30 minutes",
+      "cuisine": "italian",
+      "type": "pasta",
+      "complexity": "simple",
+      "instructions": "1. Cook spaghetti in salted boiling water according to package instructions.\n2. In a skillet, heat olive oil over medium heat.\n3. Add minced garlic and cook until fragrant.\n4. Toss cooked pasta in the skillet with garlic oil.\n5. Season with salt, pepper, and dried oregano.\n6. Serve hot, garnished with grated Parmesan cheese and fresh basil leaves.",
+      "image": "https://www.recipetineats.com/wp-content/uploads/2014/06/Pasta1.jpg?resize=650,650",
+      "link": "https://www.recipetineats.com/quick-easy-pasta-recipes/"
     }
+    
   ]
 }
