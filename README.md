@@ -27,3 +27,30 @@ Welcome to Flavot, your personal food assistant! Whether you're looking for a qu
 ## Demo 🎞️
 
 ![Video demo](/src/assets/demo.gif)
+
+## Get Started 🍝
+
+1. **Clone repository:**
+
+```powershell
+git clone <https://github.com/C0SS10/Flavot.git>
+```
+
+2. **Install dependencies:**
+
+```powershell
+cd flavot
+pnpm install
+```
+
+3. **Run the app:**
+
+```powershell
+pnpm run dev
+```
+
+4. **Start chatting:**
+
+```powershell
+Open the browser and navigate to `http://localhost:5173/`
+```
