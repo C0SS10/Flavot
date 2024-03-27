@@ -22,7 +22,7 @@ Welcome to Flavot, your personal food assistant! Whether you're looking for a qu
 
 - **TypeScript:** Ensures type safety and better code organization.
 - **React:** Provides a fast and interactive user interface.
-- **CSS:** Styles the chat interface for a visually appealing experience.
+- **CSS:** Styles the chat interface.
 
 ## Demo 🎞️
 
