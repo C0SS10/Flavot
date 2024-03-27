@@ -76,12 +76,12 @@
 
 .message-input{
   background-color: transparent;
-  border: none;
+  border: 1px solid var(--champagne);
   border-radius: 0.4rem;
   outline: none;
   padding: 0.4rem;
   font-size: 1.2rem;
-  color: var(--champagne);
+  color: #000;
 }
 
 .message-input::placeholder{

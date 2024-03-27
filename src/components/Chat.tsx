@@ -129,12 +129,13 @@ export function Chat() {
             />
             <a
               className="button"
-              onClick={() =>
-                handleUserInput(
-                  (document.querySelector(".message-input") as HTMLInputElement)
-                    .value
-                )
-              }
+              onClick={() => {
+                const messageInput = document.querySelector(
+                  ".message-input"
+                ) as HTMLInputElement;
+                handleUserInput(messageInput.value);
+                messageInput.value = "";
+              }}
             >
               <img src={Send} alt="Send icon" className="icon" />
             </a>
